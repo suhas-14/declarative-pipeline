@@ -2,7 +2,7 @@ pipeline {
    agent any
    
   stages {
-     stage('fetching the code') {
+     stage('Code') {
         steps {
            echo "fetching the code from github"
              }
