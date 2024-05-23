@@ -4,12 +4,12 @@ pipeline {
   stages {
      stage('Code') {
         steps {
-           echo "fetching the code from github"
+           echo "fetching the code from GitHub"
              }
          }
      stage('build') {
          steps {
-             echo "this is build phase"
+             echo "this is built phase"
                } 
           }
       stage('test') {
@@ -19,7 +19,7 @@ pipeline {
           }
       stage('deploy') {
          steps {
-              echo "this is deploy phase"
+              echo "this is deployed phase"
                } 
           }
    }
