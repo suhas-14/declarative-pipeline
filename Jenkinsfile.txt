@@ -4,7 +4,7 @@ pipeline {
   stages {
      stage('Code') {
         steps {
-           echo "fetching the code from GitHub"
+           git "https://github.com/suhas-14/declarative-pipeline.git"
              }
          }
      stage('build') {
